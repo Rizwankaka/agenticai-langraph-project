@@ -22,5 +22,3 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: git push --force https://RizwanRizwan:$HF_TOKEN@huggingface.co/spaces/RizwanRizwan/agenticai main
-       
-         
